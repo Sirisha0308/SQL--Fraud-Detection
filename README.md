@@ -1,2 +1,5 @@
-# SQL--Fraud-Detection
-This project involves analyzing banking transactions using SQL to detect potential fraud. We imported transaction data into MySQL, created a structured schema, and ran analytical queries to identify suspicious patterns. Key areas included high-value transactions, multiple logins, and unusual IP or device activity.    
+Banking Transactions & Fraud Detection Analysis
+
+This project focuses on detecting potential fraudulent activities within banking transaction data using SQL and MySQL Workbench. The dataset used includes transactional information such as transaction amount, time, customer details, device and IP information, and account-related metadata. The goal was to identify suspicious patterns that could indicate fraudulent behavior.
+
+We began by designing a normalized database schema and creating a table to store the transactional data. The dataset was then imported into MySQL Workbench, and a variety of SQL queries were written to analyze different types of potentially risky activities. These included detecting transactions with unusually high amounts, frequent transactions from the same account within a short time span, accounts accessed from multiple IPs or devices in a day, and users attempting multiple logins. Additional patterns like transactions made despite low account balances and geographically distributed transaction activity were also examined.
